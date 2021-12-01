@@ -1,0 +1,86 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../Multimedia/imagenes/FondoMessi.jfif); }
+
+.cabeza {
+  background-color: black;
+  color: white; }
+
+.menu {
+  background-color: whitesmoke;
+  display: block; }
+
+.top {
+  background-color: whitesmoke; }
+
+.footer {
+  background-color: black; }
+
+.cabeza__index {
+  color: white;
+  text-align: center;
+  text-decoration: none; }
+
+.fuente {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase; }
+
+ol, ul {
+  list-style-type: none; }
+
+.menuPrincipal {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-style: normal;
+  font-weight: 800;
+  text-align: center;
+  color: black; }
+
+.menuPrincipal li a {
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block; }
+
+.menuPrincipal li a:hover {
+  background-color: whitesmoke;
+  color: black; }
+
+.menuPrincipal > li {
+  float: left; }
+
+.menuPrincipal li ul {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  min-width: 140px; }
+
+.menuPrincipal li:hover > ul {
+  display: block; }
+
+.footer__pie {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 20%; }
+
+.titulo {
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin-top: 16%; }
+
+.video {
+  margin-top: 15%;
+  margin-left: 15%; }
+
+.listas {
+  margin-top: 15%;
+  color: white; }
